@@ -1,0 +1,44 @@
+.container {
+}
+
+.nav-bar {
+	position: relative;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: orange;
+	padding: 30px 80px 10px 80px;
+}
+
+.nav-btn {
+  flex-grow: 1;
+  margin: 0 10px 0 10px;
+  flex-basis: 0;
+
+	color: white);
+	background-color: teal;
+
+	cursor: pointer;
+
+	border-radius: 4px;
+
+	text-align: center;
+	font-size: 18px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+
+	border: none;
+
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.nav-btn:hover:not(.active) {
+	background-color: green;
+	transform: translateY(-2px);
+}
+.nav-btn.active {
+	transform: translateY(-2px);
+	background-color: blue;
+}

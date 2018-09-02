@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.welcome-text .welcome-msg {
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  text-align: center;
+}
+
+.welcome-msg {
+  font-size: 12px;
+}
